@@ -1,0 +1,9 @@
+@media screen and (min-width: 400px) {
+     header{
+      width: 20%;
+     }
+     h6{
+      font-size: x-small;
+      font-weight: 10px;
+     }
+  }

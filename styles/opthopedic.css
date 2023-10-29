@@ -355,14 +355,27 @@ a{
 }
 .specialties h1{
   font-family: Rufina;
-font-size: 30px;
-font-weight: 700;
-line-height: 105px;
-letter-spacing: 0em;
+font-size: 25px;
+font-weight: 20;
+line-height: 50px;
+/* letter-spacing: 0em; */
 text-align: left;
 margin-right: 10px;
 }
 .specialties{
   display: flex;
+}
+/* .g_parents{
+  display: inline-block;
+  width: 1000px;
+} */
+.card{
+  width: 1000000px;
+  height: 200px;
+  font-size: smaller;
+  /* display: inline; */
+}
+.card h4, .card p{
+  font-size: small;
 }
 }

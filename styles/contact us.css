@@ -458,6 +458,25 @@ a {
       width: 49.99%;
   } */
 /* } */
+.About{
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+.About img{
+   width: 500px;
+   height: 400px;
+}
+.write{
+  width: 600px;
+  height: 1000px;
+}
+.butt{
+  margin-top: 100px;
+  background-color: #771016;
+  height: 60px;
+  width: 150px;
+}
   @media (max-width:600px) {
     .nav > .nav-btn {
       display: inline-block;
@@ -541,5 +560,8 @@ a {
     height: 60px;
     width: 200px;
     /* padding-right: 200px; */
+  }
+  .About{
+    display: inline;
   }
   }

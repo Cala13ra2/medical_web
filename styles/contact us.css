@@ -684,13 +684,28 @@ text-align: center;
       font-family: Rufina;
     font-size: xx-small;
     font-weight: 10;
-    line-height: 79px;
+    line-height: 9px;
     letter-spacing: 0em;
-    text-align: center;
+    /* text-align: center; */
+    width: 50px
+    }
+    .long_text{
+      /* display: flex; */
+      /* align-items: center; */
+      /* justify-content: center; */
+      /* margin-top: 0px; */
+      padding-top: 20px;
+    }
+    .long_text h3{
+     font-size: xx-small;
+     width: 500px;
     }
     .hurting{
       display: inline;
       width: 300px;
+    }
+    .write p{
+      width: 350px;
     }
   }
   
